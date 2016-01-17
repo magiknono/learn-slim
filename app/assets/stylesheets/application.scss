@@ -1,5 +1,18 @@
+// General Style Variables
+@import "config/variables";
+@import "config/bootstrap_variables";
 
+// External frameworks
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+/* --- Components design --- */
+@import "layout/*";
+@import "components/*";
+
+
+
+
+

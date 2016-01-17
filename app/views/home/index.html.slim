@@ -1,2 +1,38 @@
-h1 Home#index
-p Find me in app/views/home/index.html.slim
+nav.navbar-wagon
+  .container.navbar-wagon-container
+    a[href="/"]
+       i.fa.fa-music.fa-4x
+    .navbar-wagon-prepusher
+    h3 learn slim
+    .navbar-wagon-pusher
+    form.navbar-wagon-search.hidden-xs.hidden-sm[action=""]
+      input.navbar-wagon-search-input[type="text" placeholder="Rien à chercher pour le moment"]
+      button.navbar-wagon-search-btn[type="submit"]
+        i.fa.fa-search
+    a.navbar-wagon-item.navbar-wagon-link[href=""]
+
+    .icon-badge-container
+      i.fa.fa-envelope-o
+      .icon-badge.icon-badge-blue
+        | 3
+
+    .navbar-wagon-item
+      .dropdown
+        img#navbar-wagon-menu.avatar.dropdown-toggle[src="http://placehold.it/50x50" data-toggle="dropdown"]
+        ul.dropdown-menu.dropdown-menu-right.navbar-wagon-dropdown-menu
+          li
+            a[href="#"]
+              | Profile
+          li
+            a[href="#"]
+              | Dashboard
+          li
+            a[href="#"]
+              | Log Out
+
+    a.navbar-wagon-item.navbar-wagon-button.btn[href=""]
+      | Post stuff
+
+.container
+  h1 Home#index
+  p Find me in app/views/home/index.html.slim
