@@ -16,8 +16,8 @@ gem 'slim'
 # Add slim-rails gem to generate rails controller with slim template
 gem 'slim-rails'
 # Add slim erb & html convert gem
-# gem 'erb2slim'
-# gem 'html2slim'
+#gem 'erb2slim'
+#gem 'html2slim'
 ## OR Install in local to convert your application erb layout -> 'gem install erb2slim'
 ## example : erb2slim app/views/layout/application.html.erb -d
 ### Alternatively, to convert files or strings on the fly in your application, you may do so by calling HTML2Slim.convert!(file, format) where format is either :html or :erb.
@@ -27,6 +27,12 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'autoprefixer-rails'
+
+# Add authentication
+gem 'devise'
+
+# Add postgresql
+gem 'pg'
 
 group :development, :test do
   gem 'binding_of_caller'
